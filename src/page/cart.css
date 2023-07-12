@@ -1,0 +1,30 @@
+*,
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cart {
+    margin: 50px 100px;
+    height: 90vh;
+    color: #450920;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.cart-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px;
+}
+
+h4 {
+    font-weight: 600;
+    margin-bottom: 20px
+}

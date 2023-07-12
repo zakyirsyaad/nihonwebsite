@@ -1,0 +1,154 @@
+*,
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-container {
+    background-color: #fff;
+    color: #450920;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-header {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.text-desc {
+    font-size: 17px;
+}
+
+.image-container {
+    padding: 50px 0px;
+}
+
+.image-home {
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 0px 50px;
+    box-shadow: #450920 7px 7px 1px 0px;
+}
+
+.home-btn {
+    padding: 10px 25px;
+    font-weight: 500;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+    background-color: #450920;
+    color: #fff;
+}
+
+.home-btn:hover {
+    background-color: #F9DBBD;
+    color: #450920;
+    font-weight: 600;
+}
+
+/* insppiration */
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9DBBD;
+    padding: 50px 100px;
+}
+
+.inspiration-header {
+    font-size: 25px;
+    font-weight: 700;
+    color: #450920;
+}
+
+.image-ins {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.img-item-ins {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 15px;
+    transition: all .3s;
+}
+
+.img-item-ins:hover,
+.popular-container:hover {
+    transform: scale(1.1);
+}
+
+.border-radius {
+    border-radius: 50px 0px 0px 0px;
+}
+
+.border-radius2 {
+    border-radius: 0px 50px 0px 0px;
+}
+
+.img-popular {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: all .3s;
+}
+
+.popular-container {
+    margin: 0px 25px;
+    padding: 20px 30px;
+    background-color: #450920;
+    color: #fff;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.nama-product {
+    font-weight: 700;
+}
+
+/* why container */
+
+.why-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 200px;
+    color: #450920;
+}
+
+h1,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 15px 0px;
+}
+
+/* testimonial */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9DBBD;
+    padding: 50px 100px;
+}
+
+.img-testi {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0px 20px;
+    border-radius: 50px;
+}

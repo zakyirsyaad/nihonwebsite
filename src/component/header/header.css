@@ -1,0 +1,36 @@
+*,
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #450920;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.pad {
+    padding: 10px 12px;
+}

@@ -1,0 +1,73 @@
+*,
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-container {
+    margin: 50px 100px;
+    color: #450920;
+}
+
+.custom-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.form-container label {
+    font-weight: 600;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-ukuran {
+    text-align: center;
+}
+
+input[type='number'] {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0px 5px;
+}
+
+input[type='text'] {
+    height: 30px;
+    padding: 5px;
+}
+
+.order {
+    padding: 10px 25px;
+    background-color: #450920;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.order:hover {
+    background-color: #F9DBBD;
+    color: #450920;
+}

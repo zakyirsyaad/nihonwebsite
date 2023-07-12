@@ -1,0 +1,17 @@
+*,
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.status {
+    margin: 50px 100px;
+    height: 70vh;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
