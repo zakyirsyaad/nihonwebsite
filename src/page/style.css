@@ -141,8 +141,15 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F9DBBD;
+    background-color: #450920;
     padding: 50px 100px;
+}
+
+.testimonial-header {
+    font-size: 30px;
+    font-weight: 600;
+    color: #F9DBBD;
+    margin-bottom: 40px;
 }
 
 .img-testi {
@@ -151,4 +158,24 @@ h1 {
     object-fit: cover;
     margin: 0px 20px;
     border-radius: 50px;
+}
+
+/* membership */
+.membership {
+    padding: 100px 50px;
+    background-color: #F9DBBD;
+}
+
+.member-header {
+    text-align: center;
+    font-weight: 600;
+    color: #450920;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }

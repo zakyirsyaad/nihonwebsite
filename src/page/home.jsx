@@ -3,6 +3,7 @@ import Inspiration from '../component/inspiration/inspiration'
 import Why from '../component/why/why'
 import Testimonial from '../component/testimonial/testimonial'
 import { NavLink } from 'react-router-dom';
+import MembershipPage from '../component/membership/membership';
 
 export default function Home() {
     const handleScroll = (id) => {
@@ -27,6 +28,7 @@ export default function Home() {
             </div>
             <Inspiration />
             <Why />
+            <MembershipPage />
             <Testimonial />
         </section>
     )

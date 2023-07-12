@@ -6,7 +6,7 @@ import jep from '../../assets/jep.jpg'
 export default function Testimonial() {
     return (
         <div className='testimonial'>
-            <p className='inspiration-header'>Our Client</p>
+            <p className='testimonial-header'>Our Client</p>
             <div className='image-ins'>
                 <div className='img-testi-container'>
                     <img className='img-testi' src={galuh} alt="" srcset="" />
